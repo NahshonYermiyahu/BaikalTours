@@ -2,9 +2,9 @@
     height: 85vh;
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8)),
-    url(../img/RIAN_5626737.HR_.ru_.jpg);
+        rgba($color-primary-light, 0.5),
+        rgba($color-primary-dark, 0.5)),
+    url(../img/baikal.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -22,9 +22,9 @@
            only screen and (min-width: 125em) {
         background-image: linear-gradient(
                         to right bottom,
-                        rgba($color-primary-light, 0.8),
-                        rgba($color-primary-dark, 0.8)),
-        url(../img/hero.jpg);
+                        rgba($color-primary-light, 0.5),
+                        rgba($color-primary-dark, 0.5)),
+        url(../img/baikal.jpg);
     }
 
 

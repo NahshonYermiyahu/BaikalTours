@@ -172,7 +172,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: .15;
+  opacity: .7;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
@@ -284,7 +284,7 @@ body {
   .card__picture {
     background-size: cover;
     height: 23rem;
-    background-blend-mode: screen;
+    background-blend-mode: multiply;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
@@ -504,7 +504,7 @@ body {
 .form__radio-button {
   height: 3rem;
   width: 3rem;
-  border: 5px solid #55c57a;
+  border: 3px solid #55c57a;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -680,8 +680,7 @@ body {
       .footer__logo-box {
         margin-bottom: 6rem; } }
   .footer__logo {
-    width: 15rem;
-    height: auto; }
+    width: 15rem; }
   .footer__navigation {
     border-top: 1px solid #777;
     padding-top: 2rem;
@@ -711,7 +710,7 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem;
     width: 80%;
-    float: right; }
+    text-align: center; }
     @media only screen and (max-width: 56.25em) {
       .footer__copyright {
         width: 100%;
@@ -759,7 +758,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/RIAN_5626737.HR_.ru_.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.5)), url(../img/baikal.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -770,7 +769,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.5)), url(../img/baikal.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -922,7 +921,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.5)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -975,3 +974,5 @@ body {
     @media only screen and (max-width: 56.25em) {
       .book__form {
         width: 100%; } }
+    .book__form .form div:nth-child(5) button {
+      text-transform: uppercase; }

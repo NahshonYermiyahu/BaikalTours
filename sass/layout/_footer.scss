@@ -19,7 +19,7 @@
 
     &__logo {
         width: 15rem;
-        height: auto;
+        //height: 3.5rem;
     }
 
     &__navigation {
@@ -68,7 +68,9 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         width: 80%;
-        float: right;
+        //float: right;
+        text-align: center;
+
 
         @include respond(tab-port) {
             width: 100%;
