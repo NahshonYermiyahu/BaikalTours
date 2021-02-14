@@ -695,7 +695,7 @@ body {
   transition: all .4s; }
 
 .btn--animated {
-  animation: moveInBottom .5s ease-out 1.5s;
+  animation: moveInBottom .5s ease-out 1s;
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
@@ -1299,12 +1299,12 @@ body {
       right: 3.5rem; } }
 
 .navigation__nav {
+  opacity: 0;
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 25%;
   z-index: 1500;
-  opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
