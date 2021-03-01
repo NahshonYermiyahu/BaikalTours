@@ -55,7 +55,8 @@
         height: 100vh;
         position: fixed;
         top: 0;
-        left: 25%;
+        //left: -20%;
+        right: -5%;
         z-index: 1500;
         width: 0;
         transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
